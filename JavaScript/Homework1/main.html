@@ -3,91 +3,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
     <title>Gadget</title>
 </head>
 <body>
 <header>
-    <h1>GADGET</h1>
-    <div class="cart">
-        <h3>Cart</h3>
-        <div>0</div>
-    </div>
+    <nav class="header-navigation__nav">
+        <ul>
+            <li class="logo__li">
+                <a href="index.html"><span>GADG</span>ET</a>
+            </li>
+            <li class="cart__li">
+                <a class="cart__a" href="#">cart</a>
+                <a class="cart__amount" href="#">0</a>
+            </li>
+        </ul>
+    </nav>
 </header>
 <main>
-    <button>Sort by Product Name</button>
-    <button>Sort by Price</button>
-    <div class="product">
-        <img src="images/google_pixel_3.png" alt="Google Pixel 3" width="115">
-        <h3>Google Pixel 3 XL</h3>
-        <button>Add to Cart</button>
-        <p>$648</p>
+    <div class="filter__buttons">
+        <button class="sort-by-name__button">Sort by Product Name</button>
+        <button class="sort-by-price__button">Sort by Price</button>
     </div>
-    <div class="product">
-        <img src="images/google_pixel_2.png" alt="Google Pixel 2 XL" width="155">
-        <h3>Google Pixel 2 XL</h3>
-        <button>Add to Cart</button>
-        <p>$500</p>
-    </div>
-    <div class="product">
-        <img src="images/apple_iphone_xr.png" alt="Apple iPhone XR" width="155">
-        <h3>Apple iPhone XR</h3>
-        <button>Add to Cart</button>
-        <p>$714</p>
-    </div>
-    <div class="product">
-        <img src="images/one_plus_7.png" alt="OnePlus 7 Pro" width="155">
-        <h3>OnePlus 7 Pro</h3>
-        <button>Add to Cart</button>
-        <p>$327</p>
-    </div>
-    <div class="product">
-        <img src="images/samsung_galaxy_s10.png" alt="Samsung Galaxy S10 Plus" width="155">
-        <h3>Samsung Galaxy S10 Plus</h3>
-        <button>Add to Cart</button>
-        <p>$114</p>
-    </div>
-    <div class="product">
-        <img src="images/samsung_galaxy_note_9.png" alt="Samsung Galaxy Note 9" width="155">
-        <h3>Samsung Galaxy Note 9</h3>
-        <button>Add to Cart</button>
-        <p>$170</p>
-    </div>
-    <div class="product">
-        <img src="images/dell_alienware.png" alt="Dell Alienware 17 R5 VR" width="155">
-        <h3>Dell Alienware 17 R5 VR</h3>
-        <button>Add to Cart</button>
-        <p>$2300</p>
-    </div>
-    <div class="product">
-        <img src="images/msi_gaming_ms1_gt83.png" alt="MSI Gaming MSI GT83 8RG-007IN" width="155">
-        <h3>MSI Gaming MSI GT83 8RG-007IN</h3>
-        <button>Add to Cart</button>
-        <p>$5170</p>
-    </div>
-    <div class="product">
-        <img src="images/chuwi_herobook_pro.png" alt="CHUWI HeroBook Pro 14.1" width="155">
-        <h3>CHUWI HeroBook Pro 14.1</h3>
-        <button>Add to Cart</button>
-        <p>$439</p>
-    </div>
-    <div class="product">
-        <img src="images/apple_macbook_air.png" alt="Apple MacBook Air" width="155">
-        <h3>Apple MacBook Air</h3>
-        <button>Add to Cart</button>
-        <p>$1150</p>
-    </div>
-    <div class="product">
-        <img src="images/asus_rog_zephyrus.png" alt="Asus ROG Zephyrus S17 GX701LWS-HG110T" width="155">
-        <h3>Asus ROG Zephyrus S17 GX701LWS-HG110T</h3>
-        <button>Add to Cart</button>
-        <p>$3200</p>
+    <div class="all-products__container">
+        <div class="product">
+            <img src="images/google_pixel_3.png" alt="Google Pixel 3" width="110">
+            <h3>Google Pixel 3 XL</h3>
+            <button>Add to Cart</button>
+            <p>$648</p>
+        </div>
+        <div class="product">
+            <img src="images/google_pixel_2.png" alt="Google Pixel 2 XL" width="220">
+            <h3>Google Pixel 2 XL</h3>
+            <button>Add to Cart</button>
+            <p>$500</p>
+        </div>
+        <div class="product">
+            <img src="images/apple_iphone_xr.png" alt="Apple iPhone XR" width="155">
+            <h3>Apple iPhone XR</h3>
+            <button>Add to Cart</button>
+            <p>$714</p>
+        </div>
+        <div class="product">
+            <img src="images/one_plus_7.png" alt="OnePlus 7 Pro" width="220">
+            <h3>OnePlus 7 Pro</h3>
+            <button>Add to Cart</button>
+            <p>$327</p>
+        </div>
+        <div class="product">
+            <img src="images/samsung_galaxy_s10.png" alt="Samsung Galaxy S10 Plus" width="105">
+            <h3>Samsung Galaxy S10 Plus</h3>
+            <button>Add to Cart</button>
+            <p>$114</p>
+        </div>
+        <div class="product">
+            <img src="images/samsung_galaxy_note_9.png" alt="Samsung Galaxy Note 9" width="105">
+            <h3>Samsung Galaxy Note 9</h3>
+            <button>Add to Cart</button>
+            <p>$170</p>
+        </div>
+        <div class="product">
+            <img src="images/dell_alienware.png" alt="Dell Alienware 17 R5 VR" width="205">
+            <h3>Dell Alienware 17 R5 VR</h3>
+            <button>Add to Cart</button>
+            <p>$2300</p>
+        </div>
+        <div class="product">
+            <img src="images/msi_gaming_ms1_gt83.png" alt="MSI Gaming MSI GT83" width="205">
+            <h3>MSI Gaming MSI GT83</h3>
+            <button>Add to Cart</button>
+            <p>$5170</p>
+        </div>
+        <div class="product">
+            <img src="images/chuwi_herobook_pro.png" alt="CHUWI HeroBook Pro 14.1" width="205">
+            <h3>CHUWI HeroBook Pro 14.1</h3>
+            <button>Add to Cart</button>
+            <p>$439</p>
+        </div>
+        <div class="product">
+            <img src="images/apple_macbook_air.png" alt="Apple MacBook Air" width="170">
+            <h3>Apple MacBook Air</h3>
+            <button>Add to Cart</button>
+            <p>$1150</p>
+
+        </div>
+        <div class="product">
+            <img src="images/asus_rog_zephyrus.png" alt="Asus ROG Zephyrus S17 GX701LWS-HG110T" width="205">
+            <h3>Asus ROG Zephyrus S17 GX701LWS-HG110T</h3>
+            <button>Add to Cart</button>
+            <p>$3200</p>
+
+        </div>
     </div>
 </main>
 <footer>
-    <a href="/">Contact us</a>
-    <br>
-    <a href="/">Leave us with some feedback</a>
-    <p>© 2020 Gadget-store</p>
+    <div class="footer__content">
+        <a href="/">Contact us</a>
+        <br>
+        <a href="/">Leave us with some feedback</a>
+        <p>© 2022 Gadget-store</p>
+    </div>
+
 </footer>
 </body>
 </html>

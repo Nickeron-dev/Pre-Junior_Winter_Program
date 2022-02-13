@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+   text-decoration: none;
+}
+
+header {
+    height: 70px;
+    background-color: #222222;
+}
+
+.header-navigation__nav a {
+    font-size: 2em;
+    font-family: 'Dosis', sans-serif;
+}
+
+.header-navigation__nav span {
+    color: #FFFFFF;
+}
+
+.logo__li a {
+    color: #FF7417;
+}
+
+.logo__li {
+    float: left;
+    margin-left: 150px;
+}
+
+.cart__li {
+    margin-left: 1300px;
+    padding-top: 10px
+}
+
+.cart__a {
+    color: #FF7417;
+}
+
+.cart__amount {
+    position: absolute;
+    margin-left: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    background-color: #BD1DBD;
+    color: #FFFFFF;
+}
+
+main {
+    margin-top: 30px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.filter__buttons {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding-bottom: 40px;
+}
+
+.sort-by-name__button {
+    float: left;
+    padding: 10px 40px;
+}
+
+.sort-by-price__button {
+    float: right;
+    padding: 10px 40px;
+}
+
+.all-products__container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-auto-columns: 1fr;
+    padding-top: 100px;
+    font-family: 'Dosis', serif;
+}
+
+.product {
+    width: 200px;
+    height: 350px;
+    font-size: 0.8em;
+}
+
+.product button {
+    float: left;
+    margin-top: 10px;
+    padding: 5px 20px;
+}
+
+.product p {
+    margin-left: 150px;
+    margin-top: 10px;
+    font-size: 1.3em;
+}
+
+footer {
+    background-color: #222222;
+    font-family: 'Dosis', sans-serif;
+}
+
+footer a {
+    color: #FF7417;
+}
+
+footer p {
+    padding-top: 20px;
+    color: #FFFFFF;
+}
+
+.footer__content {
+    margin-left: 120px;
+}
+
