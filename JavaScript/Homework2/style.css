@@ -1,0 +1,76 @@
+main {
+    width: 800px
+}
+
+.main__div {
+    display: grid;
+}
+
+.yellow__container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.yellow-on-purple__div {
+    width: 100px;
+    height: 200px;
+    /*display: flex;*/
+    grid-template-columns: auto auto auto;
+
+}
+
+.yellow-item3 {
+    margin-left: 490px;
+}
+
+.purple {
+    background-color: #554499;
+}
+
+.yellow-on-purple__div {
+    background-color: #F0D614;
+}
+
+.darkgreen {
+    background-color: #557711;
+}
+
+.middle-lightgreen {
+    background-color: #99AA77;
+}
+
+.middle-darkgreen {
+    background-color: #77AA66;
+}
+
+.lightgreen {
+    background-color: #22EE88;
+}
+
+.lightblue {
+    background-color: #5588DD;
+}
+
+.red {
+    background-color: #FF1177;
+}
+
+.light-red {
+    background-color: #CC4488;
+}
+
+.blue {
+    background-color: #1155FF;
+}
+
+.light-purple {
+    background-color: #9955CC;
+}
+
+.dark-purple {
+    background-color: #71047A;
+}
+
+.grey {
+    background-color: #AAAAAA;
+}
