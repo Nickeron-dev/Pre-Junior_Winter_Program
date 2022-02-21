@@ -1,9 +1,17 @@
 main {
-    width: 800px
+    width: 700px;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(auto-fill, minmax(100px, 1fr) ) ;
+    color: #444;
 }
 
 .main__div {
-    display: grid;
+    background-color: #444;
+    color: #fff;
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
 }
 
 .yellow__container {
@@ -14,13 +22,43 @@ main {
 .yellow-on-purple__div {
     width: 100px;
     height: 200px;
-    /*display: flex;*/
     grid-template-columns: auto auto auto;
 
 }
 
+.item1 {
+    grid-column: auto / span 4;
+    grid-row: auto / span 2;
+}
+
+.item2 {
+    grid-column: auto / span 2;
+}
+
+.item5 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 2;
+}
+
+.item6, .item7, .item8 {
+    grid-column: auto / span 2;
+}
+
+.item9, .item10 {
+    grid-column: auto / span 2;
+    grid-row: auto / span 20;
+}
+
+.item11 {
+    grid-column: auto / span 4;
+}
+
+.item12 {
+    grid-column: auto / span 6;
+}
+
 .yellow-item3 {
-    margin-left: 490px;
+    margin-left: 120px;
 }
 
 .purple {
