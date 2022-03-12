@@ -12,24 +12,8 @@
 
 int gcd_for_three(int a, int b, int c)
 {
-    int a_and_b_result;
-    if (b == 0)
-    {
-        a_and_b_result = Math.Abs(a);
-    }
-    else
-    {
-        a_and_b_result = gcd_for_two(a, b);
-    }
-
-    if (c == 0)
-    {
-        return Math.Abs(a_and_b_result);
-    }
-    else
-    {
-        return gcd_for_two(c, a_and_b_result);
-    }
+    int a_and_b_result = gcd_for_two(a, b);
+    return gcd_for_two(c, a_and_b_result);
 }
 
 Console.WriteLine("Input first number: ");
