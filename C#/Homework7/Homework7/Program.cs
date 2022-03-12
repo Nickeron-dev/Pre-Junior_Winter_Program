@@ -19,7 +19,7 @@ int gcd_for_three(int a, int b, int c)
     }
     else
     {
-        a_and_b_result = gcd_for_two(b, a % b);
+        a_and_b_result = gcd_for_two(a, b);
     }
 
     if (c == 0)
