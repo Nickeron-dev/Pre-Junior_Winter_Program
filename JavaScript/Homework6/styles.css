@@ -15,7 +15,6 @@ body {
 .todo-list {
     display: flex;
     flex-direction: column;
-    margin-top: 32px;
     background-color: coral;
     border-radius: 8px;
     padding: 8px;
@@ -24,7 +23,6 @@ body {
 }
 
 .list {
-    margin: 0;
     padding: 0;
     list-style-type: none;
     margin: auto;
